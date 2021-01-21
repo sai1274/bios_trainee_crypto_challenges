@@ -1,0 +1,5 @@
+In the question it was given that the required flag is in ascii format we need to
+convert it into string for that we can use the command " chr() " which converts
+the ascii number to its text. 
+In the program i converted each ascii to its respective text word and then i
+added all those words to the string z. And then it prints the respestive flag.

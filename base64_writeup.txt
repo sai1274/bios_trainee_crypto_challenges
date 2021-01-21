@@ -1,0 +1,5 @@
+In the question it was given that the flag is encoded in the hex format 
+1) so we need decode it into bytes with the help of following command:
+	"string".decode('hex')
+2) now its in bytes format so we can encode it in the base64 format by using the following command:
+	"string".encode('base64')

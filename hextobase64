@@ -1,0 +1,5 @@
+In this your are given with a string which is encoding in the format "hex".So you can use the below command to decode
+"string".decode("hex")
+and next we need to encode it in the base64 format.So you can use the below command
+"string".encode("base64")
+and next print it.

@@ -1,0 +1,8 @@
+In this question we were given with hex encoded string so we need to decode it. I t can be done with the help of following 
+command: "string".decode('hex')
+given that it was a single-byte cipher it means we XOR'd entire msg with only only char (a-z) so now we use a for loop to xor 
+with each character and then count no.of letters are in readable format and then compare it with another high_score variable 
+which keeps track of highest no.of readable characters. we'll store the string with high no.of reable characters. At the end we
+will print it.
+XOR can done with the help of the command:  chr(ord(a,16) ^ ord (b,16))
+ 
